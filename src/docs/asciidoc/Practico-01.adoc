@@ -1,0 +1,8 @@
+﻿== Práctico 1 - Kotlin
+
+El objetivo de este práctico es familiarizarse con la sintaxis de Kotlin, para ello deberá resolver de los Koans propuestos (Introducción) en la página https://try.kotlinlang.org/.
+
+image::try-kotlin-site.png[size=auto]
+
+
+
