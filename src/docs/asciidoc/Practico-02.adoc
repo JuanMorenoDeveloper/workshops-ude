@@ -1,1 +1,27 @@
-﻿== TODO
+﻿== Práctico 02
+
+# Objetivo
+
+El objetivo de este práctico es familiarizarse con uso de Kotlin y Unit Test en el desarrollo de aplicaciones. En este proyecto se usará como herramienta de build `gradle`.
+
+## Descripción
+
+Montevideo Forecast es un emprendimiento que tiene como objetivo ofrecer a su sus usuarios un medio para obtener datos del tiempo atmosférico. Para ello lo ha contratado para que implemente una aplicación de consola para manejar esa información.
+
+La aplicación debe manejar siguientes objetos: lugares y lecturas. De los lugares se conoce: el id, el nombre, la dirección, la latitud y la longitud. En el caso de las lecturas los atributos a usar son: el id de la lectura, la temperatura (°C), la humedad (%), el viento (Km/h), el timestamp (YYYY/MM/DD hh:mm:ss) y el id del lugar al que pertenece. De acuerdo al planteamiento presentado, se requiere por parte de usted de lo siguiente:
+
+1. Diseñar el diagrama de clases y casos de usos, tomando en cuenta el enunciado y el conjunto de funcionalidades que a continuación se le solicitan.
+
+2. Cargar desde la consola y de manera independiente los datos de lugares y lecturas según lo requiera el usuario.
+
+3. Consultar de manera separada según requiera el caso los datos de lugares o lecturas, suministrando por parte del usuario.
+
+4. Ordenar alfabéticamente por el nombre los lugares registrados en el sistema.
+
+## Consideraciones
+
+* Escriba test unitarios para cada caso de uso.
+
+* Desacople su diseño en clases y responsabilidades.
+
+* Para los tests procure utilizar tests y junit, puede ver una configuración de ejemplo aquí: https://github.com/junit-team/junit5-samples/tree/master/junit5-jupiter-starter-gradle

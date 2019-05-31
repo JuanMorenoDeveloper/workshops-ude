@@ -1,0 +1,26 @@
+﻿== Práctico 03
+
+# Objetivo
+
+El objetivo de este práctico es familiarizarse con el uso de Android Studio, el diseño de Layouts y el uso de Activities.
+
+## Descripción
+
+1. Crear un LinearLayout  y un RelativeLayout.
+
+2. Agregar un control cualquiera a cada uno de los layouts anteriores, con lo visto en el teórico más la documentación de Android que usted dispone, configure el el control de las siguientes maneras:
+
+    * Centrado en la mitad de la pantalla
+    * Al final de la pantalla
+    * Al inicio de la pantalla
+
+3. Agregar un campo nombre, un campo password y un botón de Login al ejercicio anterior. Elija el layout que le parezca más adecuado.
+Posicione los elementos de manera común a cualquier pantalla de Login que usted haya visto antes.
+
+4. Al ejercicio 3, agréguele un nuevo Activity. Este Activity debe ser accedido cuando usted ingresa el usuario y password “correcto” (Hardcodee uno a su elección en el Activity). En caso que la contraseña sea incorrecta, debe desplegar un mensaje a pantalla avisando al usuario de dicho evento. (Puede utilizar un Activity o un Label).
+
+5. El Activity anterior debe recibir como parámetro el nombre de la persona que se logueo a la aplicación y desplegar un mensaje de bienvenida para ese usuario.
+
+6. Cree una pantalla con dos controles, Label1 y Label2, el primer label debe quedar a 1/3 del borde superior de la pantalla y el segundo a 1/3 del borde inferior de la pantalla.
+
+7. Idem al ejercicio 6 pero simétrico por el vertical. En otras palabras, se deben ver 4 Labels, uno en cada cuadrante, cada uno debe estar centrado en su cuadrante.
