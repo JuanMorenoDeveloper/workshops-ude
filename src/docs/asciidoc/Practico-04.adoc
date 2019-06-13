@@ -1,0 +1,11 @@
+﻿== Práctico 04
+
+# Objetivo
+
+El objetivo de este práctico es familiarizarse con las herramientas de Testing de Android (Robolectric y Espresso). Como referencia use los ejemplos del práctico 3 y la documentación oficial de los proyectos.
+
+## Descripción
+
+1. Implemente casos de prueba para el punto 4 del práctico 3.
+
+2. Implemente una aplicación calculadora con funcionalidades básicas (sumar y restar). Cree test usando JUnit, Robolectric y Espresso.
