@@ -1,0 +1,30 @@
+﻿== Práctico 05
+
+## Descripción
+
+A partir del práctico 4 y usando el patrón MVP, agregue los siguientes casos de usos a la aplicación:
+
+ 1. Validar los datos de autenticación de los usuarios a partir un HashMap de una fuente estática de datos, por ejemplo:
+
+
+    val users = HashMap()
+    users.put("cat", "black")
+    users.put("dog", "brown")
+    users.put("bird", "blue")
+
+    Nota: Considere el uso del método containsKey, ver documentación en: https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html
+
+ 2. Al navegar a la página principal (Home de la aplicación) deberá mostrar los datos del usuario que se autentico correctamente, deberá agregar un caso de uso donde se busquen los datos del usuario a partir de su nombre. La fuente de datos también puede ser un HashMap, donde los valores serán objetos de tipo usuario, por ejemplo:
+
+    class Usuario {
+      var id:String
+      var nombre:String
+      var edad:Int = 0
+
+      var correo:String
+    }
+
+    val dataUsers = HashMap()
+    dataUsers.put("cat", Usuario(....))
+
+ 3. Actualiza la implementación de la calculadora del Práctico 4 usando el patrón MVP.
