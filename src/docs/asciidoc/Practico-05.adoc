@@ -20,7 +20,6 @@ A partir del práctico 4 y usando el patrón MVP, agregue los siguientes casos d
       var id:String
       var nombre:String
       var edad:Int = 0
-
       var correo:String
     }
 
