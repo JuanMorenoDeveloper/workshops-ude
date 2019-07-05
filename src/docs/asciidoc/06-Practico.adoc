@@ -1,0 +1,22 @@
+﻿== Práctico 06
+
+## SQLite
+
+1. Crear la base de datos Usuario, que aparece en el teórico de DataStorage
+2. Generar una interfaz como la de la Figura 1 para manipular las consultas
+3. Hacer un método para `insert`, `delete` y `update` respectivamente utilizando `execSQL` con parámetros. Puede probarlo con Buttons desde el activity principal, o ejecutando los métodos directamente al ingresar al activity a modo de prueba
+4. Hacer lo mismo que el ejercicio anterior utilizando los métodos `insert()`, `delete()` y `update()`
+5. Hacer un método que ejecute una consulta de todos los usuarios a la tabla usuario de la base de datos, utilizando el método `rawQuery()`
+6. Hacer el método del punto anterior utilizando el método `query()`
+
+.Ejemplo de interfaz de la aplicación
+image::abm-practico6.png[size=auto]
+
+## SharedPreferences
+
+1. Desarrolle una aplicación para generar puntajes aleatorios (Figura 2).
+2. Guarde el número generado en las preferencias de la aplicación (SharedPreferences), y actualice siempre que el número sea mayor.
+3. Al abrir la aplicación muestre el valor actual que está almacenado en las preferencias.
+
+.Ejemplo de Layout de la Aplicación.
+image::preferences-practico6.png[size=auto]
