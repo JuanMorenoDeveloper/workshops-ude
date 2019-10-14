@@ -1,0 +1,40 @@
+﻿== Práctico 10
+
+## Integración con API de Marvel
+
+* El objetivo de este práctico es desarrollar una aplicación Android que consulta la API de Marvel. Para ello, tendrá que:
+
+1. Crear una cuenta en el portal de desarrollo de marvel https://developer.marvel.com/.
+
+2. Obtener un API Key. El API Key va tener dos componentes uno público y otro privado. Puede solicitar al facilitar unas API de prueba.
+
+3. Revise la documentación en: https://developer.marvel.com/documentation/generalinfo
+
+### Consideraciones adicionales:
+
+* Para enviar las peticiones se requiere del envío de un hash. Revise el funcionamiento en https://developer.marvel.com/documentation/authorization. Puede usar el siguiente método para generarlo (Hace uso de la librería Guava):
+
+```kotlin
+    val apiKey = "1234"
+    val privateKey = "abcd"
+    val timestamp = System.currentTimeMillis()
+    val hash = Hashing.md5().hashString(
+        timestamp.toString() + privateKey + apiKey,
+        Charsets.UTF_8
+    ).toString()
+```
+
+* La lista de los endpoints se puede ver aquí: https://developer.marvel.com/docs
+
+* Algunos ID de personajes que puede usar son:
+** **1009610**: Spider-Man
+** **1009726**: X-Men
+** **1009351**: Hulk
+** **1009368**: Iron Man
+** **1009165**: Avengers
+** **1009664**: Thor
+** **1009220**: Captain America
+** **1010338**: Captain Marvel
+
+Puede usar la url https://gateway.marvel.com/v1/public/characters?nameStartsWith=NombrePersonaje&ts=XYZ&apikey=VWX&hash=Md5Hash para encontrar más personajes.
+
