@@ -10,6 +10,10 @@
 
 3. Revise la documentación en: https://developer.marvel.com/documentation/generalinfo
 
+4. Implementa una interfaz como la de la siguiente Figura para interactuar con el servicio.
+
+image::practico10-layout.png[]
+
 ### Consideraciones adicionales:
 
 * Para enviar las peticiones se requiere del envío de un hash. Revise el funcionamiento en https://developer.marvel.com/documentation/authorization. Puede usar el siguiente método para generarlo (Hace uso de la librería Guava):
