@@ -24,4 +24,4 @@ La aplicación debe manejar siguientes objetos: lugares y lecturas. De los lugar
 
 * Desacople su diseño en clases y responsabilidades.
 
-* Para los tests procure utilizar tests y junit, puede ver una configuración de ejemplo aquí: https://github.com/junit-team/junit5-samples/tree/master/junit5-jupiter-starter-gradle
+* Para los tests procure utilizar tests y junit, puede ver una configuración de ejemplo aquí: https://github.com/junit-team/junit5-samples/tree/master/junit5-jupiter-starter-gradle-kotlin
