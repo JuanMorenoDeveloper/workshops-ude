@@ -24,3 +24,5 @@ Posicione los elementos de manera común a cualquier pantalla de Login que usted
 6. Cree una pantalla con dos controles, Label1 y Label2, el primer label debe quedar a 1/3 del borde superior de la pantalla y el segundo a 1/3 del borde inferior de la pantalla.
 
 7. Idem al ejercicio 6 pero simétrico por el vertical. En otras palabras, se deben ver 4 Labels, uno en cada cuadrante, cada uno debe estar centrado en su cuadrante.
+
+8. Agregue una Activity adicional y configurela para que funcione como una calculadora simple de dos números (suma, resta, multiplicación, división).
