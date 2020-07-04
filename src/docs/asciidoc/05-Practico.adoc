@@ -7,7 +7,7 @@ A partir del práctico 4 y usando el patrón MVP, agregue los siguientes casos d
  1. Validar los datos de autenticación de los usuarios a partir un HashMap de una fuente estática de datos, por ejemplo:
 
 
-    val users = HashMap()
+    val users = HashMap<String, String>()
     users.put("cat", "black")
     users.put("dog", "brown")
     users.put("bird", "blue")
@@ -23,7 +23,7 @@ A partir del práctico 4 y usando el patrón MVP, agregue los siguientes casos d
       var correo:String
     }
 
-    val dataUsers = HashMap()
+    val dataUsers = HashMap<String, Usuario>()
     dataUsers.put("cat", Usuario(....))
 
  3. Actualiza la implementación de la calculadora del Práctico 4 usando el patrón MVP.
