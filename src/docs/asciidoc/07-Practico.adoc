@@ -1,7 +1,15 @@
 ﻿== Práctico 07
 
-## Componentes de arquitectura
+## Tareas en segundo plano
 
-1. Implemente el codelab de componentes de arquitectura siguiendo las instrucciones descritas en el siguiente enlace: https://codelabs.developers.google.com/codelabs/android-room-with-a-view-kotlin/index.html
+1. Crear un Activity con una ProgressBar y un Button. Al presionar el botón, se debe disparar una tarea asíncrona que complete la barra de progreso en incrementos de un 1%, hasta llegar a completarla totalmente.
 
-2. Usando la solución del práctico 06 (SQLite), reimplemente la funcionalidad usando componentes de arquitectura.
+2. Agregar un botón que al presionarse cancele la tarea asíncrona y despliegue un mensaje con un `Toast`.
+
+3. Modificar el método de la tarea de manera que la barra de progreso se complete en incrementos de 10%. Puede utilizar el método `Thread.sleep(500)` para generar una pausa entre incrementos consecutivos
+
+4. En el ejercicio 2, en la implementación del método en segundo plano, haga una consulta SQL a una base de datos previamente creada. Puede generar la base con una tabla Usuario con 500 filas generados al azar (Utilice un bucle). En la consulta solicite todos los usuarios de la base.
+
+5. Implemente el método de manera que se vea el progreso en un `ProgressBar`
+
+6. Implemente los ejercicios anteriores usando corrutinas.
